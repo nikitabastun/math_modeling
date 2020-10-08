@@ -1,14 +1,8 @@
-print('Введи делимое')
-a=int(input())
-print('Введи делитель')
-b=int(inpit())
-if b == 0
-    print('Делитель равен 0')
-    exit()
-    if a%b==0
-        print('Делится нацело')
-    else:
-        aaaa=('Не делится нацело,остаток равен')
-        print(aaaa,a%b)
-        aaaa('Частное равно')
-        print(aaaa, int(a/b))
+for a in range(2, int(input('Input number: '))):
+    n = 0
+    for b in range(1,a):
+        if a%b == 0:
+            n += b
+            continue
+    if n==a:
+        print (a)

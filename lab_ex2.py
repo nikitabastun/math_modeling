@@ -1,8 +1,7 @@
-a=input('Первый член: ')
-a=int(a)
-b=input('знаменатель: ')
-b=int(b)
-nMAX=input('Количество членов: ')
-nMAX=int(nMAX)
-for n in range(1,nMAX):
-    print(a*b**(nMAX-1))
+print("Введите число:")
+A = int(input("A = "))
+B = 0
+while A>0:
+    B = B*10 + A%10
+    A = A//10
+print(B)
